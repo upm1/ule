@@ -1,0 +1,40 @@
+{
+    
+  "name": "RegistroVisasUlises",
+  "short_name": "Visa Registros",
+  "description": "Bienvenidos a los registros",
+  "background_color": "#f9f6f2",
+  "theme_color": "#ede5de",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons":
+    
+   
+     [
+        {
+            "src": "./img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
+
+

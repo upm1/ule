@@ -1,0 +1,99 @@
+
+
+.contenedor{
+    /* background-color: rgb(220, 236, 220); */
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #44aac4 10px;
+    padding: 5px;
+  
+    
+}
+
+
+
+.d-flex input {
+    margin: .9em 0em;
+}
+
+.d-flex button {
+    margin: .9em 0em;
+    /* margin: 1.5em .6em; */
+    padding: .3em 2.4em;
+}
+
+.d-flex table {
+    margin: 1em 10em;
+    width:100%;
+    height: 100%;
+}
+
+table .btnedit {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+table .btndelete {
+    color: tomato;
+    cursor: pointer;
+}
+
+/* messages */
+.updatemsg,
+.deletemsg,
+.insertmsg {
+    position: absolute;
+    top: -40px;
+}
+
+.movedown {
+    animation: slideup 3.4s ease;
+}
+
+@keyframes slideup {
+    50% {
+        top: 0
+    }
+
+    100% {
+        top: -40px;
+    }
+}
+
+
+@media screen and (max-width:790px) {
+    /* .contenedor{
+        background-color: greenyellow;
+        
+    } */
+    
+
+    .d-flex table tr{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+
+    .table th[data-titulo]{
+        display: flex;
+    }
+     
+    .table th[data-titulo]::before{
+        content:attr(data-titulo);
+        width: 90px;
+    }
+    .d-flex table thead{
+        display: none;
+    }
+
+}
+
